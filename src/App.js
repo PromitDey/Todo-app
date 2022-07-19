@@ -7,6 +7,7 @@ import {TodoContext} from "./context/TodoContext"
 import todoReducer from "./context/reducer"
 import TodoForm from './Components/TodoForm'
 import Todos from './Components/Todos'
+import logo from './logo.png'
 
 const App = () => {
   
@@ -15,6 +16,7 @@ const App = () => {
   return(
     <TodoContext.Provider value = {{todos, dispatch}}>
       <Container fluid>
+        <img src = {logo} />
         <h1>
           Todo App with Context API
         </h1>

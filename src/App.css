@@ -5,7 +5,12 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+img{
+  width: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
 body {
   position: relative;
   background-color: rgb(104, 104, 104);
@@ -17,7 +22,7 @@ h1 {
 }
 form {
   position: fixed;
-  bottom: 500px;
+  bottom: 200px;
   right: 30%;
   left: 30%;
   border-radius: 8px;
@@ -28,7 +33,7 @@ form {
 
 .items {
   position: fixed;
-  top: 50px;
+  top: 150px;
   right: 30%;
   left: 30%;
   border-radius: 8px;
